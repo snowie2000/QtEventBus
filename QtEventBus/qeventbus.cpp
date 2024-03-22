@@ -6,8 +6,7 @@
 #include <qcomponentcontainer.h>
 #include <QQmlEngine>
 
-
-static QExport<QEventBus> export_eventbus(QPart::shared);
+// static QExport<QEventBus> export_eventbus(QPart::shared);
 
 Q_DECLARE_METATYPE(QMessageResultPointer)
 
